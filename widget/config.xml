@@ -41,6 +41,8 @@
 	<preference name="smartUpdate" value="false"/>
 
 	<preference name="debug" value="false"/>
+	
+	<preference name="autoUpdate" value="true" />
 
 	<preference name="statusBarAppearance" value="true"/>
 
