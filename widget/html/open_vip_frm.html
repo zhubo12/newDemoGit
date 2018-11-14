@@ -289,7 +289,7 @@
                 localStorage.setItem('url5',ret.msg['url5']);
                 localStorage.setItem('url6',ret.msg['url6']);
                 var weichatdiv = $api.byId('weichat');
-                weichatdiv.innerHTML = '客服微信：1023717654'+localStorage.getItem('user_weichat');
+                weichatdiv.innerHTML = '客服微信：'+localStorage.getItem('user_weichat');
                 api.sendEvent({
                   name: 'newLoingdata',
                   extra: {
