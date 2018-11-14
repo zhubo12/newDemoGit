@@ -289,7 +289,7 @@
                 localStorage.setItem('url5',ret.msg['url5']);
                 localStorage.setItem('url6',ret.msg['url6']);
                 var weichatdiv = $api.byId('weichat');
-                weichatdiv.innerHTML = '客服微信：'+localStorage.getItem('user_weichat');
+                weichatdiv.innerHTML = '客服微信：1023717654'+localStorage.getItem('user_weichat');
                 api.sendEvent({
                   name: 'newLoingdata',
                   extra: {
@@ -306,7 +306,7 @@
 
     function openUrl1(){
 
-      if (localStorage.getItem('url1') == '无数据') {
+      if (localStorage.getItem('url1') == 'http://917ka.com/details/CDE0A6BA') {
         keFu();
         return;
       }else if (localStorage.getItem('url1') == '') {
@@ -435,7 +435,7 @@
       var dialogBox = api.require('dialogBox');
       dialogBox.alert({
           texts: {
-              content: '请联系客服微信：'+localStorage.getItem('user_weichat'),
+              content: '请联系客服微信：1023717654'+localStorage.getItem('user_weichat'),
               leftBtnTitle: '知道了',
               rightBtnTitle: '联系客服'
           },
